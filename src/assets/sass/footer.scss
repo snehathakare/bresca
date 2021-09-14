@@ -1,0 +1,10 @@
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  background-color: $navy_blue;
+  color: white;
+  bottom: 0;
+  li {
+    list-style: none;
+  }
+}
