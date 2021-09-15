@@ -2,6 +2,8 @@
   background-color: $navy_blue;
   color: white;
   margin: 0;
+  font-size: x-small;
+  padding: 10px;
 }
 .header-primary {
   background-color: $primary_yellow;
@@ -13,8 +15,16 @@
   li {
     list-style: none;
   }
+  img {
+    width: 100px;
+  }
 }
 .right-menu {
   display: flex;
   align-items: center;
+  padding-right: 10px;
+}
+.right-menu > * {
+  padding: 5px;
+  font-size: small;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./../../assets/sass/style.scss";
+import logo from "../../assets/images/logo.png";
 
 export const Header = () => {
   return (
@@ -9,7 +10,7 @@ export const Header = () => {
       </div>
       <div className="header-primary">
         <div>
-          <h1>logo</h1>
+          <img src={logo} />
         </div>
         <div className="right-menu">
           <li>MENUS</li>
