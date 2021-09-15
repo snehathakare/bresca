@@ -1,6 +1,7 @@
 import React from "react";
 import "./../../assets/sass/style.scss";
 import logo from "../../assets/images/logo.png";
+import { Link } from "react-navi";
 
 export const Header = () => {
   return (
@@ -13,11 +14,11 @@ export const Header = () => {
           <img src={logo} />
         </div>
         <div className="right-menu">
-          <li>MENUS</li>
-          <li>OUR STORY</li>
-          <li>PRIVATE EVENTS</li>
-          <li>CONTACT</li>
-          <li>GIFT CARDS</li>
+          <Link href="/menus">MENUS</Link>
+          <Link href="/">OUR STORY</Link>
+          <Link href="/events">PRIVATE EVENTS</Link>
+          <Link href="/contact">CONTACT</Link>
+          <Link href="/gifts">GIFT CARDS</Link>
           <button className="btn-primary">RESERVATIONS</button>
         </div>
       </div>

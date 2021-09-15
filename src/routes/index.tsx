@@ -2,7 +2,10 @@ import { lazy, mount, route } from "navi";
 
 import React from "react";
 import App from "../App";
-import { Header } from "../components/common/Header";
+import Contact from "../components/pages/Contact";
+import Events from "../components/pages/Events";
+import Menu from "../components/pages/Menu";
+import Homepage from "../components/pages/Homepage";
 
 // Define your routes
 const routes = mount({
@@ -12,19 +15,19 @@ const routes = mount({
   }),
   "/contact": route({
     title: "Home",
-    view: <Header />,
+    view: <Contact />,
   }),
   "/events": route({
     title: "Home",
-    view: <Header />,
+    view: <Events />,
   }),
-  "/gifts": route({
+  "/menus": route({
     title: "Home",
-    view: <Header />,
+    view: <Menu />,
   }),
-  "/reservations": route({
+  "/homepage": route({
     title: "Home",
-    view: <Header />,
+    view: <Homepage />,
   }),
 });
 export default routes;

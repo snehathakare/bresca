@@ -1,15 +1,8 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./components/common/Header";
-import { Footer } from "./components/common/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Footer />
-    </div>
-  );
+  return <div className="App">I am app component</div>;
 }
 
 export default App;
