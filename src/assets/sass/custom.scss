@@ -1,0 +1,21 @@
+.bg-common {
+  background-color: $navy_blue;
+}
+.container-home {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.events-banner {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+.events-banner > * {
+  padding: 20px;
+  text-align: center;
+}

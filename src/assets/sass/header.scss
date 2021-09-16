@@ -12,10 +12,6 @@
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
-
-  li {
-    list-style: none;
-  }
   img {
     width: 100px;
   }
@@ -28,4 +24,5 @@
 .right-menu > * {
   padding: 5px;
   font-size: small;
+  text-decoration-line: none;
 }
